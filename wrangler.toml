@@ -1,0 +1,12 @@
+name = "ggvccfggc" #  Choose your worker name
+main = "worker.js"
+compatibility_date = "2023-09-01"
+
+# Enable usage of secrets
+[vars]
+TELEGRAM_BOT_TOKEN = "7859087070:AAFO_Vor1P7wCPaq8v-ahrQk2APYZIXyDBY"  # Replace this too, for local testing
+CHANNEL_USERNAME = "@kajal_developer" # Replace this too, for local testing
+
+[secrets]
+TELEGRAM_BOT_TOKEN = "7859087070:AAFO_Vor1P7wCPaq8v-ahrQk2APYZIXyDBY" # Actual secret for deployment
+CHANNEL_USERNAME = "@kajal_developer"   # Actual secret for deployment
